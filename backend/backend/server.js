@@ -18,8 +18,8 @@ connectCloudinary()
 app.use(express.json())
 app.use(cors({
     origin:[
-        "https://spiffy-nasturtium-81bc19.netlify.app/",
-        "https://wonderful-pastelito-297e9b.netlify.app/"
+        "https://spiffy-nasturtium-81bc19.netlify.app",
+        "https://wonderful-pastelito-297e9b.netlify.app"
     ]
 }))
 
